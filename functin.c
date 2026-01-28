@@ -12,7 +12,9 @@ int main()
     printIntro();
 }
 */
-int sum(int a, int b);
+
+/**
+  int sum(int a, int b);
 
 int main()
 {
@@ -31,4 +33,37 @@ int main()
 int sum(int x, int y)
 {
     return x + y;
+}
+**/
+
+// EVEN--ODD CHECK BY FUNCTION-->>>
+
+int evenOdd(int n);
+int main()
+{
+    int num;
+    printf("Enter your number : ");
+    scanf("%d", &num);
+
+    int res = evenOdd(num);
+    if (res == 1)
+    {
+        printf("The number is Even");
+    }
+    else
+    {
+        printf("The number is Odd");
+    }
+    return 0;
+}
+
+int evenOdd(int n)
+{
+    if (n % 2 == 1)
+
+        return 1;
+
+    else
+
+        return 0;
 }
