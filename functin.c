@@ -38,7 +38,7 @@ int sum(int x, int y)
 
 // EVEN--ODD CHECK BY FUNCTION-->>>
 
-int evenOdd(int n);
+/**int evenOdd(int n);
 int main()
 {
     int num;
@@ -66,4 +66,54 @@ int evenOdd(int n)
     else
 
         return 0;
+}
+*****/
+
+// CALCULETOR fUNCTION
+/**
+void calculatePrice(float value);
+
+int main()
+{
+    float value = 100.00;
+    printf("Value is %f\n", value);
+    calculatePrice(value);
+
+    return 0;
+}
+void calculatePrice(float value)
+{
+    value = value + (0.18 * value);
+    printf("Final value is = %f\n", value);
+}
+***/
+
+// SQUARE--RECTANGLE--SIDE AREA
+float sqrArea(float side);
+float crclArea(float rad);
+float rctnglArea(float a, float b);
+
+int main()
+{
+    float a = 23;
+    float b = 24;
+    float side = 10.23;
+    float rad = 6;
+    printf("Rectangle Area is %f\n", rctnglArea(a, b));
+    printf("Square Area is %f\n", sqrArea(side));
+    printf("Circle Area is %f\n", crclArea(rad));
+
+    return 0;
+}
+float sqrArea(float side)
+{
+    return side * side;
+}
+float crclArea(float rad)
+{
+    return 3.14 * rad * rad;
+}
+float rctnglArea(float a, float b)
+{
+    return a * b;
 }
