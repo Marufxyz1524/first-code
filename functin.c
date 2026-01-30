@@ -89,6 +89,7 @@ void calculatePrice(float value)
 ***/
 
 // SQUARE--RECTANGLE--SIDE AREA
+/**
 float sqrArea(float side);
 float crclArea(float rad);
 float rctnglArea(float a, float b);
@@ -116,4 +117,26 @@ float crclArea(float rad)
 float rctnglArea(float a, float b)
 {
     return a * b;
+}
+*/
+// RECURSION FUNCTION
+int sum(int n);
+int main()
+{
+    int n;
+    printf("Enter your number : ");
+    scanf("%d", &n);
+    printf("The sum is : %d", sum(n));
+
+    return 0;
+}
+int sum(int n)
+{
+    if (n == 1)
+    { // Here if loop is very important--->>>search chatgpt..
+        return 1;
+    }
+    int sumNm1 = sum(n - 1);
+    int sumN = sumNm1 + n;
+    return sumN;
 }
