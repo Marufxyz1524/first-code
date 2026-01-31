@@ -120,7 +120,7 @@ float rctnglArea(float a, float b)
 }
 */
 // RECURSION FUNCTION
-int sum(int n);
+/*int sum(int n);
 int main()
 {
     int n;
@@ -140,3 +140,17 @@ int sum(int n)
     int sumN = sumNm1 + n;
     return sumN;
 }
+*/
+
+// Leap Year----->>>>
+/*int main()
+{
+    int year;
+    printf("Enter a year: ");
+    scanf("%d", &year);
+
+    (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) ? printf("Leap Year") : printf("Not a Leap Year");
+
+    return 0;
+}
+    */
