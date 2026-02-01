@@ -154,3 +154,16 @@ int sum(int n)
     return 0;
 }
     */
+float convertFarTOcel(float farnht);
+int main()
+{
+    float farnht;
+    printf("Enter your FARHENHIGHT degree : ");
+    scanf("%f", &farnht);
+    printf("FARENHIGHT TO CELCIOUS : %f ", convertFarTOcel(farnht));
+}
+float convertFarTOcel(float farnht)
+{
+    float celcious = ((farnht - 32) * 5) / 9;
+    return celcious;
+}
