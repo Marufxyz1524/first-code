@@ -154,6 +154,8 @@ int sum(int n)
     return 0;
 }
     */
+/*
+CONVERT TEMPRETURE BY FUNCTION------>>>>>.....<<<<<<<
 float convertFarTOcel(float farnht);
 int main()
 {
@@ -166,4 +168,24 @@ float convertFarTOcel(float farnht)
 {
     float celcious = ((farnht - 32) * 5) / 9;
     return celcious;
+}
+    */
+
+float avrgCalclte(float math, float chem, float bangla);
+int main()
+{
+    float math, chem, bangla;
+    printf("Enter your math mark : ");
+    scanf("%f", &math);
+    printf("Enter your chem mark : ");
+    scanf("%f", &chem);
+    printf("Enter your bangla mark : ");
+    scanf("%f", &bangla);
+
+    printf("Final Average = %.3f", avrgCalclte(math, chem, bangla));
+}
+float avrgCalclte(float math, float chem, float bangla)
+{
+    float avrge = (math + chem + bangla) / 3;
+    return avrge;
 }
