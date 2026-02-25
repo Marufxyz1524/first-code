@@ -191,7 +191,7 @@ float avrgCalclte(float math, float chem, float bangla)
 }
     */
 
-// FIBONACCHI ------->>>>>>>>-----.....,<<<<<
+// FIBONACCHI ------->>>>>>>>-----.....<<<<<
 int main()
 {
     fib(6);

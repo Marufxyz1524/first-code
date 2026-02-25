@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+/*int main()
 {
     int n;
     cout << "Enter number:";
@@ -16,3 +16,5 @@ int main()
     }
     return 0;
 }
+    */
+   
